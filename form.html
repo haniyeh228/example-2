@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form example</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="get">
+        <fieldset>
+            <legend>اطلاعات کاربری</legend>
+            <label for="">نام کاربری</label><input type="text" name="user"><br />
+            <label for="">پسوورد</label><input type="password" name="pass1"><br />
+            <label for="">تکرار پسوورد</label><input type="password" name="pass2"><br />
+        </fieldset>
+        <fieldset>
+            <legend>اطلاعات شخصی</legend>
+            <label for="">نام و نام خانوادگی</label><input type="text" name="fullname"><br>
+            <label for="">وضعیت تاهل</label><input type="radio" name="marriage" value="1" checked><label
+                class="radio">مجرد</label>
+            <input type="radio" name="marriage" value="2"><label class="radio">متاهل</label><br>
+            <label>تحصیلات</label>
+            <select name="education" id="">
+                <option value="1">زیر دیپلم</option>
+                <option value="2">دیپلم</option>
+                <option value="3">فوق دیپلم</option>
+                <option value="4" selected>لیسانس</option>
+                <option value="5">فوق لیسانس</option>
+                <option value="6">دکترا</option>
+            </SELECT><br>
+            <label for="">تخصص ها</label>
+
+            <input type="checkbox" name="PHP" value="PHP"><label class="checkbox">PHP</label>
+            <input type="checkbox" name="CSS" value="CSS"><label class="checkbox">css</label>
+            <input type="checkbox" name="HTML" value="HTML"><label class="checkbox">HTML</label>
+            <input type="checkbox" name="Javascript" value="Javascript"><label class="checkbox">Javascript</label><br>
+            <label>توضیح بیشتر</label>
+            <textarea name="description"></textarea>
+        </fieldset>
+        <input type="submit" value="ارسال" class="button">
+        <input type="reset" value="نوسازی" class="button">
+    </form>
+
+</body>
+
+</html>

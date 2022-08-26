@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    width: 550px;
+    margin: 15px auto;
+    border-radius: 5px;
+    background-color: #eef;
+    box-shadow: 0 0 8px;
+
+}
+
+fieldset {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+label {
+    width: 110px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+input {
+    margin: 8px;
+    width: 180px;
+    direction: ltr;
+}
+
+legend {
+    padding: 5px;
+}
+
+label.radio,
+label.checkbox {
+    width: 35px;
+}
+
+textarea {
+    width: 280px;
+    height: 130px;
+    border-radius: 5px;
+    margin: 8px;
+    resize: none;
+    vertical-align: middle;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 12px;
+    vertical-align: middle;
+}
+
+select {
+    width: 120px;
+    margin: 8px;
+}
+
+.button {
+    width: 70px;
+    padding: 6px 8px;
+    background-color: linear-gradient(#ccf, #aad);
+}
